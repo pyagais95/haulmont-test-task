@@ -1,0 +1,17 @@
+.App {
+  display: flex;
+  justify-content: center;
+  .body-container {
+    width: 1000px;
+    &__title {
+      color: #8f8f8f;
+      margin: 20px 0;
+    }
+    &__filters {
+      display: flex;
+      .filter {
+        margin-right: 10px;
+      }
+    }
+  }
+}

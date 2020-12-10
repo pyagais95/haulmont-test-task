@@ -1,0 +1,28 @@
+.card {
+  display: flex;
+  width: 100%;
+  margin: 20px 0;
+  &__picture {
+    width: 200px;
+    height: 200px;
+  }
+  &__description {
+    width: 100%;
+    padding: 15px 30px;
+    &__title {
+      display: flex;
+      justify-content: space-between;
+      font-weight: bold;
+      &__name {
+        color: #515151;
+      }
+      &__date {
+        color: #8f8f8f;
+      }
+    }
+    &__details {
+      padding-top: 15px;
+      color: #b8b8b8;
+    }
+  }
+}
