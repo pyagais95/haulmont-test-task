@@ -26,7 +26,7 @@ function App() {
 
   const getRocketsOptions = (data:  any) => {
     const rockets: Array<any> = []
-    data.map((item: any,) => {
+    data.map((item: any) => {
       const option = {label: item.rocket.rocket_name, value: item.rocket.rocket_id}
       rockets.push(option)
     })

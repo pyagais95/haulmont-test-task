@@ -1,6 +1,6 @@
+import React from 'react';
 import Select from 'react-select'
 import './index.scss'
-import { BaseSyntheticEvent, ChangeEvent } from 'react'
 
 export interface Option {
   value: string;
